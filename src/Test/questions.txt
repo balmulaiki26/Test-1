@@ -1,0 +1,46 @@
+What is compile time and run time?
+* compile= executable
+* runtime=where the executable is running
+
+What is heap?
+* Is an area of memory used for dynamic memory allocation. Blocks of memory are allocated and freed in this case in an arbitrary order.
+
+How java manage it's memory?
+* Defines various run time data area which are used during execution of a program
+
+What is the difference between String, StringBuffer and StringBuilder?
+* String is immutable in Java
+* StringBuffer and StringBuilder are mutable objects in java and provide append(), insert(), delete() and substring() methods for String manipulation.
+
+What is Singleton class?
+* Singleton class we use getInstance() method
+
+What is Serialization and Deserialization?
+* Serialization : Is a mechanism of converting the state of an object into a byte stream.
+* Deserialization : the reverse process where the byte stream is used to recreate the actual Java object in memory.
+
+Which one will take more memory, an int or Integer?
+* an int is just one form of integer
+* Integers in programming are char, int, long, long long
+
+Why is String Immutable in Java?
+* because String objects are cached in String pool.
+
+What is constructor chaining in Java?
+* Is the process of calling one constructor from another constructor with respect to current object
+
+The difference between Serial and Parallel Garbage Collector?
+* a serial collector is a default copying collector which uses only one GC thread for the GC operation.
+* parallel collector uses multiple GC threads for the GC operation.
+
+What is JIT stands for?
+* Just In Time
+
+Explain Java Heap space and Garbage collection?
+* Heap is created when JVM runs and it may change in size while the application runs. when the heap gets full the garbag collects
+
+Can you guarantee the garbage collection process?
+* it can choose to reject the request so it is not guarantee
+
+What is the difference between stack and heap in Java?
+* Stack stores memory of variable and heap stores memory of objects
