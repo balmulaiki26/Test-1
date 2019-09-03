@@ -1,5 +1,7 @@
 package Test;
 
+import com.sun.org.apache.xpath.internal.functions.FuncFalse;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -12,7 +14,7 @@ public class DataReader {
         String a = null;
 
         try {
-            FileReader fileReader = new FileReader("//Users/billal/Desktop/Test/src/textFile");
+            FileReader fileReader = new FileReader("src/test/textFile.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             while ((text = bufferedReader.readLine()) != null) {
                 a = text;
