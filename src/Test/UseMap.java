@@ -6,9 +6,40 @@ import java.util.*;
 
 
 
-public class Map {
+
+public class UseMap {
 
     public static void main(String[] args) {
+
+        Map<String, List<String>> list = new HashMap<>();
+
+        List<String> listOfStateOfUSA = new ArrayList<>();
+        List<String> listOfStateOfCanada = new ArrayList<>();
+
+        listOfStateOfCanada.add("Ontario");
+        listOfStateOfUSA.add("NewYork");
+        listOfStateOfUSA.add("New Jersey");
+        listOfStateOfCanada.add("Montreal");
+
+        list.put("USA", listOfStateOfUSA);
+        list.put("Canada", listOfStateOfCanada);
+
+
+        System.out.println(list.size());
+        System.out.println(list);
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i) + " ");
+        }
+        System.out.println("");
+
+
+
+        }
+    }
+
+
+//*//
 
 
 
@@ -19,7 +50,7 @@ public class Map {
          *
 */
 
-        HashMap<Integer, String> Map = new HashMap<>();
+        /*HashMap<Integer, String> Map = new HashMap<>();
         Map.put(45, "Queens");
         Map.put(50, "Brooklyn");
         Map.put(60, "Manhattan");
@@ -43,6 +74,6 @@ public class Map {
     }
 
     }
-}
+}*/
 
 
